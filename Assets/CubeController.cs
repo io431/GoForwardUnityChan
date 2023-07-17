@@ -37,7 +37,7 @@ public class CubeController : MonoBehaviour
     }
 
     // ‚Ô‚Â‚©‚Á‚½Žž‚É‰¹‚ð–Â‚ç‚·
-    void OnCollisionEnter(Collision other)
+    void OnCollisionEnter2D(Collision2D other)
     {
            if (other.gameObject.tag == "Cube" || other.gameObject.tag == "Ground")
         {
